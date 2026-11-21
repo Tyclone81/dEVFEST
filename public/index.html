@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevFest Kisumu 2026 — Speakers &amp; Schedule</title>
+    <meta
+      name="description"
+      content="Explore the speakers, tracks, workshops, and full session schedule for DevFest Kisumu 2026 hosted by GDG Kisumu."
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="gdg-stripe" aria-hidden="true">
+      <span style="background: #4285f4"></span>
+      <span style="background: #ea4335"></span>
+      <span style="background: #f9ab00"></span>
+      <span style="background: #34a853"></span>
+    </div>
+
+    <header class="hero">
+      <div class="container hero-inner">
+        <div class="hero-top">
+          <div class="brand-badge">
+            <span class="brand-dot" aria-hidden="true"></span>
+            <span id="event-organizer">GDG Kisumu</span>
+          </div>
+          <button
+            id="theme-toggle"
+            class="icon-btn"
+            type="button"
+            aria-label="Toggle dark mode"
+            title="Toggle light/dark theme"
+          >
+            <span id="theme-icon" aria-hidden="true">🌙</span>
+            <span class="theme-label">Theme</span>
+          </button>
+        </div>
+
+        <h1 id="event-title">DevFest Kisumu 2026</h1>
+        <p id="event-tagline" class="hero-tagline">
+          Building Resilient Tech Together by the Lake
+        </p>
+
+        <div class="event-meta" id="event-meta">
+          <span class="meta-pill" id="meta-date">📅 Saturday, November 21, 2026</span>
+          <span class="meta-pill" id="meta-venue">📍 Acacia Premier Hotel, Kisumu</span>
+          <span class="meta-pill" id="meta-timezone">🕒 EAT (UTC+3)</span>
+        </div>
+
+        <div class="stats-row" id="event-stats" aria-label="Event summary">
+          <div class="stat-card">
+            <span class="stat-value" id="stat-sessions">--</span>
+            <span class="stat-label">Sessions</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-speakers">--</span>
+            <span class="stat-label">Speakers</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-tracks">--</span>
+            <span class="stat-label">Tracks</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-rooms">--</span>
+            <span class="stat-label">Rooms</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="tabs-bar" aria-label="Primary views">
+      <div class="container tabs-inner">
+        <div class="tab-group" role="tablist">
+          <button
+            class="tab-btn active"
+            role="tab"
+            aria-selected="true"
+            data-view="schedule"
+            id="tab-schedule"
+            type="button"
+          >
+            Schedule
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-view="speakers"
+            id="tab-speakers"
+            type="button"
+          >
+            Speakers
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-view="my-schedule"
+            id="tab-my-schedule"
+            type="button"
+          >
+            My Schedule
+            <span class="badge-count" id="bookmark-count">0</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="filters-bar" aria-label="Filter controls">
+      <div class="container">
+        <div class="filter-controls">
+          <label class="search-wrap" for="search-input">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Search talks, speakers, topics, or rooms..."
+              autocomplete="off"
+            />
+          </label>
+
+          <div class="select-group" id="schedule-selects">
+            <select id="room-filter" aria-label="Filter by room">
+              <option value="">All Rooms</option>
+            </select>
+
+            <select id="level-filter" aria-label="Filter by level">
+              <option value="">All Levels</option>
+            </select>
+          </div>
+
+          <button id="clear-filters" class="btn-secondary hidden" type="button">
+            Reset Filters
+          </button>
+        </div>
+
+        <div class="track-chips" id="track-chips" role="group" aria-label="Filter by track">
+          <button class="chip active" data-track="" type="button">All Tracks</button>
+        </div>
+      </div>
+    </section>
+
+    <main class="container main-content">
+      <div class="results-header">
+        <p id="results-summary" class="results-summary">Loading DevFest Kisumu 2026 schedule...</p>
+      </div>
+
+      <div id="conflict-banner" class="conflict-banner hidden" role="alert">
+        <strong>⚠ Time Conflict Detected:</strong>
+        <span id="conflict-text"></span>
+      </div>
+
+      <div id="content-root" class="content-root" aria-live="polite">
+        <div class="loading-state">Loading schedule data...</div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          <strong>DevFest Kisumu 2026</strong> · Powered by Node.js, Express &amp; JSON · Hosted by GDG Kisumu
+        </p>
+        <p class="footer-links">
+          API Endpoints:
+          <a href="/api/event" target="_blank" rel="noopener">/api/event</a> ·
+          <a href="/api/schedule" target="_blank" rel="noopener">/api/schedule</a> ·
+          <a href="/api/speakers" target="_blank" rel="noopener">/api/speakers</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Accessible Detail Modal -->
+    <div id="detail-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-panel">
+        <button id="modal-close" class="modal-close" type="button" aria-label="Close modal">
+          ✕
+        </button>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

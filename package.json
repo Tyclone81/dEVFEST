@@ -1,0 +1,25 @@
+{
+  "name": "devfest-kisumu-2026-schedule",
+  "version": "1.0.0",
+  "description": "Speakers and session schedule web application for DevFest Kisumu 2026 built with Node.js, Express, and JSON.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "devfest",
+    "kisumu",
+    "gdg",
+    "schedule",
+    "speakers",
+    "express",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

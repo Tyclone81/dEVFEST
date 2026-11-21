@@ -1,0 +1,377 @@
+{
+  "event": {
+    "name": "DevFest Kisumu 2026",
+    "tagline": "Building Resilient Tech Together by the Lake",
+    "organizer": "GDG Kisumu",
+    "date": "2026-11-21",
+    "displayDate": "Saturday, November 21, 2026",
+    "venue": "Acacia Premier Hotel, Kisumu, Kenya",
+    "timezone": "EAT (UTC+3)",
+    "tracks": [
+      { "id": "keynote", "name": "Keynote", "color": "#4285F4" },
+      { "id": "ai-ml", "name": "AI & ML", "color": "#EA4335" },
+      { "id": "web", "name": "Web", "color": "#F9AB00" },
+      { "id": "mobile", "name": "Android & Flutter", "color": "#34A853" },
+      { "id": "cloud", "name": "Cloud & DevOps", "color": "#9334E6" },
+      { "id": "community", "name": "Community", "color": "#00897B" }
+    ],
+    "rooms": [
+      "Victoria Main Hall",
+      "Dunga Lab",
+      "Milimani Studio",
+      "Kiboko Terrace"
+    ]
+  },
+  "speakers": [
+    {
+      "id": "spk-01",
+      "name": "Dr. Amina Ochieng",
+      "role": "Google Developer Expert — AI/ML",
+      "company": "LakeTech AI Labs",
+      "bio": "Dr. Amina Ochieng leads applied machine learning research focused on low-resource East African languages, agricultural forecasting, and edge inference across mobile devices.",
+      "initials": "AO",
+      "accentColor": "#EA4335",
+      "socials": {
+        "x": "https://x.com/aminaochieng",
+        "github": "https://github.com/aminaochieng",
+        "linkedin": "https://linkedin.com/in/aminaochieng"
+      }
+    },
+    {
+      "id": "spk-02",
+      "name": "Brian Otieno",
+      "role": "Staff Android Engineer",
+      "company": "SafiriPay",
+      "bio": "Brian has spent 9 years architecting offline-first Android apps serving millions of mobile money users across Kenya, Uganda, and Tanzania.",
+      "initials": "BO",
+      "accentColor": "#34A853",
+      "socials": {
+        "x": "https://x.com/brianotieno_dev",
+        "github": "https://github.com/brianotieno",
+        "linkedin": "https://linkedin.com/in/brianotieno"
+      }
+    },
+    {
+      "id": "spk-03",
+      "name": "Wanjiku Mwangi",
+      "role": "Principal Frontend Architect",
+      "company": "Nairobi Web Collective",
+      "bio": "Wanjiku specializes in web performance, Core Web Vitals, and Progressive Web Apps engineered for variable bandwidth networks across Africa.",
+      "initials": "WM",
+      "accentColor": "#F9AB00",
+      "socials": {
+        "x": "https://x.com/wanjikumwangi",
+        "github": "https://github.com/wanjikumwangi",
+        "linkedin": "https://linkedin.com/in/wanjikumwangi"
+      }
+    },
+    {
+      "id": "spk-04",
+      "name": "Kevin Omondi",
+      "role": "Cloud Solutions Architect",
+      "company": "RiftCloud Systems",
+      "bio": "Kevin helps high-growth startups design cost-effective, resilient Kubernetes and Cloud Run architectures on Google Cloud Platform.",
+      "initials": "KO",
+      "accentColor": "#9334E6",
+      "socials": {
+        "x": "https://x.com/kevinomondi_gcp",
+        "github": "https://github.com/kevinomondi",
+        "linkedin": "https://linkedin.com/in/kevinomondi"
+      }
+    },
+    {
+      "id": "spk-05",
+      "name": "Mercy Akinyi",
+      "role": "Lead Flutter Developer",
+      "company": "PesaPulse",
+      "bio": "GDG Kisumu co-organizer and Flutter enthusiast passionate about accessible design systems, smooth 120fps animations, and mentoring new mobile engineers.",
+      "initials": "MA",
+      "accentColor": "#34A853",
+      "socials": {
+        "x": "https://x.com/mercyakinyi",
+        "github": "https://github.com/mercyakinyi",
+        "linkedin": "https://linkedin.com/in/mercyakinyi"
+      }
+    },
+    {
+      "id": "spk-06",
+      "name": "Samuel Kiprop",
+      "role": "Senior ML Platform Engineer",
+      "company": "AgriSense Africa",
+      "bio": "Samuel builds production Gemini-powered workflows and RAG pipelines that deliver localized agronomy advice to smallholder farmers via SMS and web apps.",
+      "initials": "SK",
+      "accentColor": "#EA4335",
+      "socials": {
+        "x": "https://x.com/samkiprop_ml",
+        "github": "https://github.com/samkiprop",
+        "linkedin": "https://linkedin.com/in/samkiprop"
+      }
+    },
+    {
+      "id": "spk-07",
+      "name": "Faith Nyambura",
+      "role": "Developer Relations Lead",
+      "company": "EastAfrica DevHub",
+      "bio": "Faith champions inclusive tech communities, open-source contributions, and Women Techmakers initiatives across the Lake Victoria region.",
+      "initials": "FN",
+      "accentColor": "#00897B",
+      "socials": {
+        "x": "https://x.com/faithnyambura",
+        "github": "https://github.com/faithnyambura",
+        "linkedin": "https://linkedin.com/in/faithnyambura"
+      }
+    },
+    {
+      "id": "spk-08",
+      "name": "Daniel Onyango",
+      "role": "Senior Backend & Node.js Engineer",
+      "company": "Kisumu Digital Works",
+      "bio": "Daniel designs event-driven APIs in Node.js, TypeScript, and PostgreSQL with a focus on observability, security, and zero-downtime deployments.",
+      "initials": "DO",
+      "accentColor": "#4285F4",
+      "socials": {
+        "x": "https://x.com/danielonyango",
+        "github": "https://github.com/danielonyango",
+        "linkedin": "https://linkedin.com/in/danielonyango"
+      }
+    },
+    {
+      "id": "spk-09",
+      "name": "Zainab Hassan",
+      "role": "Staff Site Reliability Engineer",
+      "company": "Coastline FinTech",
+      "bio": "Zainab leads reliability engineering and OpenTelemetry instrumentation for real-time payment rails processing thousands of transactions per second.",
+      "initials": "ZH",
+      "accentColor": "#9334E6",
+      "socials": {
+        "x": "https://x.com/zainabhassan_sre",
+        "github": "https://github.com/zainabhassan",
+        "linkedin": "https://linkedin.com/in/zainabhassan"
+      }
+    },
+    {
+      "id": "spk-10",
+      "name": "George Wekesa",
+      "role": "GDG Kisumu Organizer & Product Engineer",
+      "company": "LakeHub Innovations",
+      "bio": "George has helped grow the Kisumu developer ecosystem for over 6 years through hands-on study jams, hackathons, and student mentorship.",
+      "initials": "GW",
+      "accentColor": "#4285F4",
+      "socials": {
+        "x": "https://x.com/georgewekesa",
+        "github": "https://github.com/georgewekesa",
+        "linkedin": "https://linkedin.com/in/georgewekesa"
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ses-01",
+      "title": "Registration, Swag Pickup & Lakeview Coffee",
+      "description": "Check in at the Acacia Premier lobby, collect your DevFest Kisumu 2026 badge and swag kit, and connect with fellow builders over Kenyan coffee.",
+      "startTime": "08:30",
+      "endTime": "09:15",
+      "track": "community",
+      "room": "Kiboko Terrace",
+      "level": "All Levels",
+      "type": "Networking",
+      "speakerIds": [],
+      "tags": ["Check-in", "Networking", "Coffee"]
+    },
+    {
+      "id": "ses-02",
+      "title": "Welcome Remarks & GDG Kisumu 2026 Community Highlights",
+      "description": "Kick off DevFest Kisumu 2026 with an overview of the day's tracks, community milestones across Nyanza and Western Kenya, and how to make the most of the event.",
+      "startTime": "09:15",
+      "endTime": "09:40",
+      "track": "keynote",
+      "room": "Victoria Main Hall",
+      "level": "All Levels",
+      "type": "Keynote",
+      "speakerIds": ["spk-10", "spk-07"],
+      "tags": ["Welcome", "GDG Kisumu", "Community"]
+    },
+    {
+      "id": "ses-03",
+      "title": "Opening Keynote: Practical AI Systems Built for Africa",
+      "description": "Explore how engineers across East Africa are moving beyond demos to deploy reliable, multilingual, and low-latency AI applications using Gemini and on-device models.",
+      "startTime": "09:45",
+      "endTime": "10:30",
+      "track": "keynote",
+      "room": "Victoria Main Hall",
+      "level": "All Levels",
+      "type": "Keynote",
+      "speakerIds": ["spk-01"],
+      "tags": ["Keynote", "AI", "Gemini", "Multilingual"]
+    },
+    {
+      "id": "ses-04",
+      "title": "Building Agentic Workflows with Gemini & Function Calling",
+      "description": "A deep dive into structured outputs, tool calling, grounding, and evaluation patterns when shipping production AI agents for real-world customer workflows.",
+      "startTime": "10:45",
+      "endTime": "11:30",
+      "track": "ai-ml",
+      "room": "Victoria Main Hall",
+      "level": "Intermediate",
+      "type": "Talk",
+      "speakerIds": ["spk-06"],
+      "tags": ["Gemini", "Agents", "RAG", "Evaluation"]
+    },
+    {
+      "id": "ses-05",
+      "title": "Offline-First Android Architecture with Compose & Room",
+      "description": "Learn battle-tested synchronization patterns, WorkManager retries, and Jetpack Compose state management for apps that shine even on flaky 3G connections.",
+      "startTime": "10:45",
+      "endTime": "11:30",
+      "track": "mobile",
+      "room": "Dunga Lab",
+      "level": "Intermediate",
+      "type": "Talk",
+      "speakerIds": ["spk-02"],
+      "tags": ["Android", "Jetpack Compose", "Offline-First"]
+    },
+    {
+      "id": "ses-06",
+      "title": "Sub-Second Web Apps: Mastering Core Web Vitals & Edge Caching",
+      "description": "Practical profiling techniques to slash LCP, eliminate layout shifts, and optimize JavaScript bundles for mobile-first East African web audiences.",
+      "startTime": "10:45",
+      "endTime": "11:30",
+      "track": "web",
+      "room": "Milimani Studio",
+      "level": "Beginner",
+      "type": "Talk",
+      "speakerIds": ["spk-03"],
+      "tags": ["Web Performance", "PWA", "Core Web Vitals"]
+    },
+    {
+      "id": "ses-07",
+      "title": "Hands-On Workshop: Shipping Resilient Node.js APIs to Cloud Run",
+      "description": "Bring your laptop! Containerize an Express + Node.js service, configure health checks, secrets, autoscaling, and deploy a zero-downtime revision to Cloud Run.",
+      "startTime": "11:45",
+      "endTime": "12:45",
+      "track": "cloud",
+      "room": "Dunga Lab",
+      "level": "Intermediate",
+      "type": "Workshop",
+      "speakerIds": ["spk-04", "spk-08"],
+      "tags": ["Node.js", "Express", "Cloud Run", "Docker"]
+    },
+    {
+      "id": "ses-08",
+      "title": "Flutter in 2026: Impeller, Wasm & Adaptive UIs",
+      "description": "See how Flutter's Impeller engine and WebAssembly compilation unlock buttery-smooth cross-platform apps across Android, iOS, and modern browsers.",
+      "startTime": "11:45",
+      "endTime": "12:45",
+      "track": "mobile",
+      "room": "Victoria Main Hall",
+      "level": "Intermediate",
+      "type": "Talk",
+      "speakerIds": ["spk-05"],
+      "tags": ["Flutter", "Impeller", "Wasm", "Cross-Platform"]
+    },
+    {
+      "id": "ses-09",
+      "title": "Modern CSS & View Transitions Without Heavy Frameworks",
+      "description": "Discover native CSS container queries, :has(), popover APIs, and smooth View Transitions that dramatically simplify frontend codebases.",
+      "startTime": "11:45",
+      "endTime": "12:45",
+      "track": "web",
+      "room": "Milimani Studio",
+      "level": "Beginner",
+      "type": "Talk",
+      "speakerIds": ["spk-03"],
+      "tags": ["CSS", "HTML", "View Transitions", "Frontend"]
+    },
+    {
+      "id": "ses-10",
+      "title": "Lunch Break & Community Booth Showcase",
+      "description": "Enjoy lunch overlooking Lake Victoria while visiting local startup demos, Google Cloud study jam booths, and Women Techmakers networking tables.",
+      "startTime": "12:45",
+      "endTime": "14:00",
+      "track": "community",
+      "room": "Kiboko Terrace",
+      "level": "All Levels",
+      "type": "Break",
+      "speakerIds": [],
+      "tags": ["Lunch", "Demos", "Networking"]
+    },
+    {
+      "id": "ses-11",
+      "title": "On-Device Inference with Gemma & MediaPipe on Android",
+      "description": "Run privacy-preserving small language models directly on mid-range smartphones, benchmark memory footprints, and build hybrid cloud-edge fallback flows.",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "track": "ai-ml",
+      "room": "Victoria Main Hall",
+      "level": "Advanced",
+      "type": "Talk",
+      "speakerIds": ["spk-01", "spk-02"],
+      "tags": ["Gemma", "Edge AI", "MediaPipe", "Android"]
+    },
+    {
+      "id": "ses-12",
+      "title": "Production Observability with OpenTelemetry & Cloud Trace",
+      "description": "Stop guessing during 2 AM incidents. Instrument distributed microservices with traces, structured logs, and actionable SLO alerts.",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "track": "cloud",
+      "room": "Dunga Lab",
+      "level": "Advanced",
+      "type": "Talk",
+      "speakerIds": ["spk-09"],
+      "tags": ["SRE", "OpenTelemetry", "Observability", "Cloud"]
+    },
+    {
+      "id": "ses-13",
+      "title": "Panel: Growing Your Engineering Career from Kisumu to Global Teams",
+      "description": "Candid stories and practical advice on remote engineering roles, open-source portfolios, technical writing, and community leadership.",
+      "startTime": "15:00",
+      "endTime": "15:45",
+      "track": "community",
+      "room": "Victoria Main Hall",
+      "level": "All Levels",
+      "type": "Panel",
+      "speakerIds": ["spk-07", "spk-05", "spk-08", "spk-09"],
+      "tags": ["Career", "Panel", "Open Source", "Leadership"]
+    },
+    {
+      "id": "ses-14",
+      "title": "Securing Express & Node.js Backends Against Real-World Threats",
+      "description": "Walk through rate limiting, schema validation, JWT pitfalls, dependency hygiene, and threat modeling tailored for fintech and civic tech APIs.",
+      "startTime": "15:00",
+      "endTime": "15:45",
+      "track": "web",
+      "room": "Milimani Studio",
+      "level": "Intermediate",
+      "type": "Talk",
+      "speakerIds": ["spk-08"],
+      "tags": ["Node.js", "Express", "Security", "APIs"]
+    },
+    {
+      "id": "ses-15",
+      "title": "Lightning Talks: Built in Kisumu Demo Showcase",
+      "description": "Five rapid-fire 7-minute demos from Lake Region developers showcasing civic tech tools, agri-tech bots, Flutter apps, and open-source packages.",
+      "startTime": "16:00",
+      "endTime": "16:45",
+      "track": "community",
+      "room": "Victoria Main Hall",
+      "level": "All Levels",
+      "type": "Lightning Talks",
+      "speakerIds": ["spk-10", "spk-06", "spk-04"],
+      "tags": ["Demos", "Lightning Talks", "Kisumu"]
+    },
+    {
+      "id": "ses-16",
+      "title": "Closing Keynote, Raffles & Group Photo",
+      "description": "Wrap up DevFest Kisumu 2026 with community shoutouts, raffle prizes, upcoming GDG Kisumu study jams, and the iconic Lakeview group photo.",
+      "startTime": "16:45",
+      "endTime": "17:30",
+      "track": "keynote",
+      "room": "Victoria Main Hall",
+      "level": "All Levels",
+      "type": "Keynote",
+      "speakerIds": ["spk-10", "spk-07"],
+      "tags": ["Closing", "Raffle", "Community"]
+    }
+  ]
+}
